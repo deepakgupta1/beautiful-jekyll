@@ -38,9 +38,9 @@ Let’s understand this with a simple example. Consider that you are getting mar
 
 You collect data of 50 guests (these are your close friends). The distribution you got is:
 
-| Vegetarian | Non Vegetarian | Non Respondent | Total | 
-|:----------:|:--------------:|:--------------:|:-----:|
-| 18         | 25             | 7              |   50  |
+|     Vegetarian     |      Non Vegetarian     |     Non Respondent     |     Total     | 
+|:------------------:|:-----------------------:|:----------------------:|:-------------:|
+| 18                 | 25                      | 7                      |   50          |
  
 Now you make a machine learning model based on different characteristics of these 50 friends of yours and their preference. These characteristics may include gender, age (most of them are quite young), living region (nearby you), religion and so on. 
 This model is suffering from both high variance and high bias. This is how:
