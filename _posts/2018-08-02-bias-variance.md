@@ -19,4 +19,4 @@ In this blog, I am going to explain all nuances of bias, variance and their trad
 ### What is Bias and Variance?
 Bias is the measure of how much a model’s predictions differ from the actual values while variance is the measure of the change in a model’s predictions for different training data.
 
-
+![bulls_eye_diagram](../blogs_resources/bias-vs-variance/bulls_eye_diagram.png)
