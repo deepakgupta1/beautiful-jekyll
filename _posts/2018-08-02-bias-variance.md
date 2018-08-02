@@ -20,3 +20,7 @@ In this blog, I am going to explain all nuances of bias, variance and their trad
 Bias is the measure of how much a model’s predictions differ from the actual values while variance is the measure of the change in a model’s predictions for different training data.
 
 ![bulls_eye_diagram](../blogs_resources/bias-vs-variance/bulls_eye_diagram.png)
+
+Consider the figure shown above (taken from Understanding the Bias-Variance Tradeoff), the center of bull’s eye represents the actual outcomes (to be predicted). Every single blue dot represents the cumulative predictions of the model for a set of training data (which changes for every dot). The four combinations of bias and variance could be:
+1.	Low bias and low variance: The predictions are not only close to actual values (low bias) but also the predictions don’t differ much in iterations when the training data is changed (low variance), so all dots are gathered around the center close to each other. This is the most desired state.
+2.	Low bias and high variance: The predictions are close to actual values (low bias) but differ greatly in iterations of training with varied data (high variance), so all dots are close to center but far from each other.
