@@ -6,7 +6,7 @@ tags: [bias, variance, bias-variance-tradeoff, machine learning, deep learning, 
 
 ### Contents
 - [**Introduction**](#introduction)
-- [**What is Bias and Variance?**](#challenge-description)
+- [**What is Bias and Variance?**](#what-is-bias-and-variance?)
 - [**A real life example of bias/variance**](#first-look)
 - [**Diagnose a model for bias and variance**](#goal-assumptions)
 - [**Bias-variance tradeoff in  Machine Learning**](#bug-hunting)
