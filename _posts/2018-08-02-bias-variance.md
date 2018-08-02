@@ -63,7 +63,7 @@ To identify bias and variance in a model, a most popular technique used in both 
 Consider the diagram above (taken from [Andrew Ng's Deep Learning Course](https://www.coursera.org/specializations/deep-learning)). There are two classes in the data set (represented by O and `X`). The blue curve is the trained model’s curve of predictions on the train dataset.
 
 | Binary Classification Problem | High Bias | Low Bias and Variance (Best) | High Variance | High Bias and Variance (Worst) | 
-| ----------------------------- |:---------:| ----------------------------:| -------------:| ------------------------------:|
+|:-----------------------------:|:---------:|:----------------------------:|:-------------:|:------------------------------:|
 | Training Error                | 15%       | 1%                           |  1%           |     15%                        |
 | Cross Validation Error        |  18%      |     3%                       |   12%         |      25%                       |
 
