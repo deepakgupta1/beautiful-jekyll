@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deciphering Bias Vs Variance vis-a-vis Machine Learning Vs Deep Learning
+title: Deciphering Bias Vs Variance vis-à-vis Machine Learning Vs Deep Learning
 tags: [bias, variance, bias-variance-tradeoff, machine learning, deep learning, overfitting]
 ---
 
