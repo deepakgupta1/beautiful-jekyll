@@ -7,12 +7,12 @@ tags: [bias, variance, bias-variance-tradeoff, machine learning, deep learning, 
 ### Contents
 - [**Introduction**](#introduction)
 - [**What is Bias and Variance?**](#what-is-bias-and-variance)
-- [**A real life example of bias/variance**](#a-real-life-example-of-bias-variance)
-- [**Diagnose a model for bias and variance**](#goal-assumptions)
-- [**Bias-variance tradeoff in  Machine Learning**](#bug-hunting)
-- [**Scenario of bias-variance tradeoff in Deep Learning**](#introduction-to-css-injection)
-- [**Key takeaways**](#introduction-to-content-security-policy)
-- [**Further reading**](#crafting-exploitaion-strategy)
+- [**A Real Life Example of Bias and Variance**](#a-real-life-example-of-bias-and-variance)
+- [**Diagnose a Model for Bias and Variance**](#diagnose-a-model-for-bias-and-variance)
+- [**Bias-Variance Tradeoff in  Machine Learning**](#bias-variance-tradeoff-in-machine-learning)
+- [**Scenario of Bias-Variance Tradeoff in Deep Learning**](#scenario-of-bias-variance-tradeoff-in-deep-learning)
+- [**Key Takeaways**](#key-takeaways)
+- [**Further Reading**](#further-reading)
 
 ### Introduction
 Bias Vs variance is considered a very basic concept in data science and is easy to understand but tough to keep track in implementations. Bias and variance are like two pans of a weighing balance, you can adjust one at the cost of other. Clear understanding of this concept is crucial for diagnosis of models.
