@@ -33,3 +33,12 @@ Consider the figure shown above (taken from Understanding the Bias-Variance Trad
 
 4.	High bias and high variance: The predictions are not only far from actual values (high bias) but also far from each other (high variance), so all dots are far from center as well as each other. This is the worst of both worlds.
 
+### A Real Life Example of Bias-Variance
+Let’s understand this with a simple example. Consider that you are getting married and lot of guests are invited (more than a 1000, yeah, an Indian wedding). And because you want to give your guests best dining experience you decide to analyze their food preferences: Vegetarian/Non- vegetarian. 
+
+You collect data of 50 guests (these are your close friends). The distribution you got is:
+
+| Vegetarian | Non Vegetarian | Non Respondent | Total | 
+| ---------- |:--------------:| --------------:| -----:|
+| 18         | 25             | 7              |   50  |
+ 
