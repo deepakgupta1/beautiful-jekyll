@@ -82,24 +82,24 @@ The meaning of bias and variance remains same for deep learning as well. The big
 The ability to control both bias and variance has added to the popularity and effectiveness of deep learning.
 
 Bias can be lowered by:
-•	Training a bigger neural network.
-•	Training the network for more epochs.
-•	Choosing a different network.
+- Training a bigger neural network.
+- Training the network for more epochs.
+- Choosing a different network.
 
 Variance can be lowered by:
-•	Getting more data for training (also using augmentation).
-•	Using regularization methods (dropout, L1, L2).
+- Getting more data for training (also using augmentation).
+- Using regularization methods (dropout, L1, L2).
 
 First, we need to identify bias and/or variance problem in the deep learning model and take actions as mentioned above. If both bias and variance are high, then iteratively reduce bias and variance till the optimized state is reached.
 
 In this Deep Learning era, controlling bias and variance both is possible to achieve highest accuracy. Deep Learning models tend to have lower bias inherently because of high complexity and there are ways to reduce variance. Regularization methods like dropout has shown very significant improvement in variance control. May be that’s why there has been a steep turn towards deep learning. 
 
 ### Key Takeaways
-•	Taking care of bias and variance in a model is very important as excess of any of these two leads to poor quality models.
-•	Bias and variance is tightly coupled with underfitting and overfitting respectively, and this fact also helps us to diagnose bias and variance in the model by checking model’s performance over training and cross validation data set.
-•	There are ways to decrease both bias and variance in deep learning models using proper training and regularization.
+- Taking care of bias and variance in a model is very important as excess of any of these two leads to poor quality models.
+- Bias and variance is tightly coupled with underfitting and overfitting respectively, and this fact also helps us to diagnose bias and variance in the model by checking model’s performance over training and cross validation data set.
+- There are ways to decrease both bias and variance in deep learning models using proper training and regularization.
 
 ### Further Reading
-•	[Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
-•	[Model Tuning and Bias-Variance Tradeoff](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
-•	[Bias-Variance Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)
+- [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
+- [Model Tuning and Bias-Variance Tradeoff](http://www.r2d3.us/visual-intro-to-machine-learning-part-2/)
+- [Bias-Variance Tradeoff](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)
