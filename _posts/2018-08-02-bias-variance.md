@@ -42,3 +42,17 @@ You collect data of 50 guests (these are your close friends). The distribution y
 | ---------- |:--------------:| --------------:| -----:|
 | 18         | 25             | 7              |   50  |
  
+Now you make a machine learning model based on different characteristics of these 50 friends of yours and their preference. These characteristics may include gender, age (most of them are quite young), living region (nearby you), religion and so on. 
+This model is suffering from both high variance and high bias. This is how:
+
+High bias: By just selecting your friends, you limit model’s understanding to only a certain class of people (young, nearby living, because they are your friends) and so the predictions on new data will be very wrong thereby increasing bias. 
+
+High variance: Small sample size (just 50) is the major source of high variance. If the sample size is increased, then the result would be more consistent. In the bulls- eye diagram, the scatter would clump together if sample size is increased.
+
+### Diagnose a Model for Bias and Variance
+To diagnose a model for bias and variance, we need to understand its relationship with underfitting and overfitting of the model.
+Underfitting: The model’s performance is poor i.e. predicted values are far from actual values which implies high bias.
+Overfitting: The complexity of model has increased to a level that the model is tightly coupled with the training data itself and is not general enough which implies high variance.
+To identify bias and variance in a model, a most popular technique used in both academia and industry is cross validating a model. In cross validation a small part of the train data set is separated out as cross validation set and the trained model is then tested on this cross-validation set.
+
+
