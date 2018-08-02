@@ -60,4 +60,4 @@ To identify bias and variance in a model, a most popular technique used in both 
 
 ![bias_variance_plot](../blogs_resources/bias-vs-variance/bis_variance_plots.png)
 
-Consider the diagram above (taken from [https://www.coursera.org/specializations/deep-learning](Andrew Ng’s deep learning course)). There are two classes in the data set (represented by O and `X`). The blue curve is the trained model’s curve of predictions on the train dataset.
+Consider the diagram above (taken from [Andrew Ng's Deep Learning Course](https://www.coursera.org/specializations/deep-learning)). There are two classes in the data set (represented by O and `X`). The blue curve is the trained model’s curve of predictions on the train dataset.
