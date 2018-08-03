@@ -3,6 +3,7 @@ layout: post
 title: Deciphering Bias Vs Variance vis-à-vis Machine Learning Vs Deep Learning
 tags: [bias, variance, bias-variance-tradeoff, machine learning, deep learning, overfitting]
 ---
+T'is the time... to stop overfitting!
 
 ### Contents
 - [**Introduction**](#introduction)
