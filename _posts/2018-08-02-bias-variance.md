@@ -16,7 +16,7 @@ tags: [bias, variance, bias-variance-tradeoff, machine learning, deep learning, 
 
 ### Introduction
 Bias Vs variance is considered a very basic concept in data science and is easy to understand but tough to keep track in implementations. Bias and variance are like two pans of a weighing balance, you can adjust one at the cost of other. Clear understanding of this concept is crucial for diagnosis of models.
-In this blog, I am going to explain all nuances of bias, variance and their tradeoff vis-à-vis Machine learning and Deep learning.
+In this blog, I am going to explain all nuances of bias, variance and their tradeoff vis-à-vis Machine Learning and Deep Learning.
 
 ![overfitting_gif](../blogs_resources/bias-vs-variance/overfitting.gif)
 
@@ -28,13 +28,13 @@ Bias is the measure of how much a model’s predictions differ from the actual v
 
 Consider the figure shown above (taken from [Understanding the Bias-Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)), the center of bull’s eye represents the actual outcomes (to be predicted). Every single blue dot represents the cumulative predictions of the model for a set of training data (which changes for every dot). The four combinations of bias and variance could be:
 
-1.	**Low bias and low variance:** The predictions are not only close to actual values (low bias) but also the predictions don’t differ much in iterations when the training data is changed (low variance), so all dots are gathered around the center close to each other. This is the most desired state.
+1.	**Low bias and low variance:** The predictions are not only close to actual values (low bias) but also the predictions don’t differ much in iterations when the training data is changed (low variance), so `all dots are gathered around the center close to each other`. This is the most desired state.
 
-2.	**Low bias and high variance:** The predictions are close to actual values (low bias) but differ greatly in iterations of training with varied data (high variance), so all dots are close to center but far from each other.
+2.	**Low bias and high variance:** The predictions are close to actual values (low bias) but differ greatly in iterations of training with varied data (high variance), so `all dots are close to center but far from each other`.
 
-3.	**High bias and low variance:** The predictions are far from actual values (high bias) but don’t differ in iterations of training with varied data (low variance), so all dots are far from center but are close to each other.
+3.	**High bias and low variance:** The predictions are far from actual values (high bias) but don’t differ in iterations of training with varied data (low variance), so `all dots are far from center but are close to each other`.
 
-4.	**High bias and high variance:** The predictions are not only far from actual values (high bias) but also far from each other (high variance), so all dots are far from center as well as each other. This is the worst of both worlds.
+4.	**High bias and high variance:** The predictions are not only far from actual values (high bias) but also far from each other (high variance), so `all dots are far from center as well as each other`. This is the worst of both worlds.
 
 ### A Real Life Example of Bias-Variance
 Let’s understand this with a simple example. Consider that you are getting married and lot of guests are invited (more than a 1000, yeah, an Indian wedding). And because you want to give your guests best dining experience you decide to analyze their food preferences: Vegetarian/Non- vegetarian. 
